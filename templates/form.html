@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Form Time!{% endblock %}
+
+{% block content %}
+
+    <h1>Salutations Form!</h1>
+    <form action="/greeter">
+        <input type="text" placeholder="your name" name="username">
+        <button>Submit!</button>
+    </form>
+
+{% endblock %}

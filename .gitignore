@@ -1,0 +1,4 @@
+venv/
+flask-madlibs/
+__pycache__
+flask-survey/
